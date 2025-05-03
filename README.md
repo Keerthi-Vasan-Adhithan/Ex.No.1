@@ -30,15 +30,25 @@ AI is a branch of computer science focused on building systems that mimic human 
 
 **3. What is Generative AI?**
 Generative AI refers to a class of AI models capable of generating new content. Unlike discriminative models, which predict labels, generative models learn the distribution of the training data to produce new samples. They can write essays, compose music, generate artwork, simulate human voices, and much more. By learning from extensive datasets, these models can create outputs that often resemble human creations.
+#### Architecture Diagram of Generative AI:
+![image](https://github.com/user-attachments/assets/2f6cfc26-c973-46a8-8ee7-892f8cc7099b)
+
 
 **4. Types of Generative AI Models:**
 
 * **Generative Adversarial Networks (GANs):** Introduced by Ian Goodfellow in 2014, GANs consist of two neural networks: a generator and a discriminator. The generator creates samples while the discriminator evaluates them, resulting in increasingly realistic outputs through adversarial training.
 * **Variational Autoencoders (VAEs):** These models encode input data into a latent space and decode it to reconstruct outputs. VAEs are particularly useful for learning meaningful data representations.
 * **Diffusion Models:** These involve gradually transforming noise into structured data through iterative steps, offering high-quality image generation. They have gained popularity in tools like DALL·E 2 and Stable Diffusion.
+  
+
 
 **5. Introduction to Large Language Models (LLMs):**
 LLMs are deep learning models trained on vast corpora of text. They are designed to understand, summarize, translate, and generate human language. These models often contain billions of parameters and can be fine-tuned for a wide variety of downstream tasks. Examples include GPT-3, GPT-4, BERT, and Google’s PaLM.
+
+#### Architecture Diagram of LLM:
+![image](https://github.com/user-attachments/assets/98156309-34ef-4bee-a1c2-025893c7db6f)
+
+
 
 **6. Architecture of LLMs:**
 
